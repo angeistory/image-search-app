@@ -3,7 +3,7 @@ const Form = ({ setWord, getPhotoData }) => { // ← getPhotoData 追加
         <form>
             <input type="text"
 			name="keyword"
-			placeholder="e.g. cat"
+			placeholder="cat"
 			onChange={e => setWord(e.target.value)} // ← 追加
  />
             <button type="submit" onClick={getPhotoData}>Search</button>  {/* ← onClick追加 */}
